@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
   const services = [
     { name: "Service 1", url: "http://localhost:5001/api" },
     { name: "Service 2", url: "http://localhost:5002/api" },
@@ -8,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { name: "Service 9", url: "http://localhost:5009/api" },
     { name: "Service 10", url: "http://localhost:5010/api" },
   ];
+
 
   const list = document.getElementById("services-list");
 

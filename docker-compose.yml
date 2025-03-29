@@ -19,6 +19,7 @@ services:
     ports:
       - "5006:5006"
 
+
   service9:
     build: ./service9
     ports:
@@ -29,4 +30,5 @@ services:
     build: ./service10
     ports:
       - "5010:5010"
+
 
