@@ -8,6 +8,11 @@ services:
     build: ./service1
     ports:
       - "5001:5001"
+  
+  service4:
+    build: ./service4
+    ports:
+      - "5004:5004"
 
   service5:
     build: ./service5
