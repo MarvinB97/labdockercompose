@@ -14,4 +14,35 @@ services:
     ports:
       - "5004:5004"
 
+  service5:
+    build: ./service5
+    ports:
+      - "5005:5005"
+
+  service6:
+    build: ./service6
+    ports:
+      - "5006:5006"
+      
+  service7:
+    build: ./service7
+    ports:
+      - "5007:5007"
+
+  service8:
+    build: ./service8
+    ports:
+      - "5008:5008"
+
+  service9:
+    build: ./service9
+    ports:
+      - "5009:5009"
+
+      
+  service10:
+    build: ./service10
+    ports:
+      - "5010:5010"
+
 
